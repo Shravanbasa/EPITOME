@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>EPITOME- Software Development</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href='css/style.css'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="icon" type="image/x-icon" href="images/footer-logo.png">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="container-fluid  ps-lg-0 pe-lg-0 pe-0 ps-0">
+        <div class="d-none d-lg-block d-md-block">
+            <nav class="bg-light mt-lg-4 mx-lg-5 navbar navbar-expand-lg p-lg-0 rounded-pill" style="height: 80px;">
+              <div class="container-fluid mx-lg-2">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height: 50px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="mb-2 mb-lg-0 ms-lg-auto navbar-nav">
+                    <li class="me-lg-3 ms-lg-3 nav-item">
+                      <a class="nav-link active pb-lg-4 pt-lg-4" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="me-lg-3 ms-lg-3 nav-item">
+                      <a class="nav-link pb-lg-4 pt-lg-4 text-blue" href="about.html">About Us</a>
+                    </li>
+                    <li class="me-lg-3 ms-lg-3 nav-item dropdown">
+                      <a class="nav-link pb-lg-4 pt-lg-4 dropdown-toggle text-decoration-none text-blue" href="#"
+                        data-bs-toggle="dropdown">Services </a>
+                      <ul class="dropdown-menu border-0">
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="ITSolutions.html">IT
+                            Solutions</a></li>
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="webconsulting.html">Web
+                            Consulting</a></li>
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="SoftwareDevelopment.html"> Software
+                            Development</a></li>
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="USStaffAugmentation.html">US
+                            Staff Augmentation</a></li>
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="BusinessConsulting.html">Business
+                            Consulting</a></li>
+                        <li><a class="dropdown-item pt-lg-2 pb-lg-2" href="JobConsulting.html">Job
+                            Consulting</a></li>
+                      </ul>
+                    </li>
+                    <li class="me-lg-3 ms-lg-3  nav-item">
+                      <a class="nav-link pb-lg-4 pt-lg-4" href="careers.html">Careers</a>
+                    </li>
+                    <li class="me-lg-3 ms-lg-3 nav-item">
+                      <div class="d-none d-xxl-flex hotline pt-lg-2" style="align-items: center;margin-right: 20px;">
+                        <div class="hotline-icon mt-0" style="margin-right: 8px;">
+                          <img src="images/email.png" style="height: 40px;">
+                        </div>
+                        <div class="hotline-info">
+                          <span class="small" style="font-size: 10px;font-weight: 500;">Message Us</span>
+                          <h6><a href="mailto:info@example.com" style="font-size: 16px;">info@example.com</a></h6>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <a href="contact.html"
+                      class="btn btn--primary rounded-pill ps-lg-5 pe-lg-5 pt-lg-3 pb-lg-3 border-0">Contact
+                      Us</a>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="d-lg-none d-md-none d-block">
+            <nav
+              class='bg-white mt-lg-4 mx-lg-5 mt-2 navbar navbar-expand-lg navbar-light pb-lg-3 pt-lg-3 shadow'>
+              <div class='container'>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height: 50px;"></a>
+                <!-- <a class='navbar-brand text-dark' href='#'>LoGo</a> -->
+                <button class='btn navbar-toggler border-0 px-2' type='button' data-bs-toggle='offcanvas'
+                  data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'>
+                  <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                    <img src="images/hamburger.png" style="height: 40px;" />
+                  </a>
+                </button>
+                <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+                  aria-labelledby='offcanvasExampleLabel'>
+                  <div class='offcanvas-header d-flex d-lg-none justify-content-end'>
+                    <!-- <h5 class='offcanvas-title text-white' id='offcanvasExampleLabel'></h5> -->
+                    <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                      <img src="images/close.png" style="height: 40px;" />
+                    </a>
+                  </div>
+                  <div class='offcanvas-body p-lg-0'>
+                    <ul class='navbar-nav'>
+                      <li class='nav-item'>
+                        <a class='nav-link active text-blue' aria-current='page' href='index.html'>Home</a>
+                      </li>
+                      <li class='nav-item'>
+                        <a class='nav-link active text-blue' aria-current='page' href='about.html'>About Us</a>
+                      </li>
+                      <li class='nav-item'>
+                        <div class="accordion pt-2 pb-2" id="accordionExample">
+                          <div class="accordion-item border-0">
+                            <h2 class="accordion-header border-0 text-blue" id="headingTwo">
+                              <button class="accordion-button collapsed  p-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                style="font-weight: 500 !important;">
+                                Services
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body p-0 ps-3">
+                                <div class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="ITSolutions.html">IT
+                                    Solutions</a></div>
+                                <div  class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="webconsulting.html">Web
+                                    Consulting</a></div>
+                                <div  class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="SoftwareDevelopment.html"> Software
+                                    Development</a></div>
+                                <div  class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="USStaffAugmentation.html">US
+                                    Staff Augmentation</a></div>
+                                <div class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="BusinessConsulting.html">Business
+                                    Consulting</a></div>
+                                <div class="mt-3 mb-3"><a class="pt-lg-2 pb-lg-2 text-decoration-none" href="JobConsulting.html">Job
+                                    Consulting</a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class='nav-item'>
+                        <a class='nav-link active text-blue' aria-current='page' href='#'>Our Clients</a>
+                      </li>
+                      <li class='nav-item'>
+                        <a class='nav-link active text-blue' aria-current='page' href='careers.html'>Careers</a>
+                      </li>
+                      <li class='nav-item'>
+                        <a class='nav-link active text-blue' aria-current='page' href='contact.html'>Contact Us</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </div>
+    <!-- navbar end -->
+    <!-- about banner start-->
+    <div class="inner-banner5">
+        <img src="images/about-icon.png" class="inner-bannerdot" alt="image">
+        <img src="images/about-wave.png" class="inner-bannerwave" alt="image">
+        <a class="down-arrow-icon" href="#ITSolutions">
+            <svg viewBox="0 0 14 26" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.8182 18.469L7.24862 25.7462L0.679032 18.469C0.272584 18.0188 0.592074 17.3 1.19862 17.3L6.74862 17.3L6.74862 1C6.74862 0.723857 6.97248 0.5 7.24862 0.5C7.52477 0.5 7.74862 0.723857 7.74862 1L7.74862 17.3L13.2986 17.3C13.9052 17.3 14.2247 18.0188 13.8182 18.469Z">
+                </path>
+            </svg>
+        </a>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <h1 class="inner-banner-title text-white fw-bold">
+                        Software Development</h1>
+
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="mx-0 row">
+                <div class="col-lg-12 text-center mt-lg-2">
+                    <ul style="display: inline-flex;list-style-type: none;" class="ps-0">
+                        <li class="breadcrumb-item"><a href="index.html"
+                                class="text-decoration-none text-green h5">Home</a></li>
+                        <li class="breadcrumb-item active text-decoration-none text-white h5" aria-current="page">
+                            Software Development
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- about banner start-->
+    <div class="container-fluid" id="ITSolutions">
+        <div class="align-items-center company mt-lg-5 mx-0 mx-lg-5 pt-lg-5 row">
+            <div class="col-12 col-lg-6 order-1 order-lg-0">
+                <div class="mt-5 mt-lg-2 services">
+                    <div class="border col-12 col-lg-5 pt-3 pt-lg-3 rounded-pill text-center"
+                        style="border: 1px solid #27AE60 !important;">
+                        <p class="text-green" style="font-weight: 600;">-- Software Development --</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-11 mt-3 mt-lg-4">
+                    <p>Our software house has been serving since 2017 and we are proud to expand our services. Software
+                        development has been the prime feature Caliber IT Solutions. Our expert software developers are
+                        ready to listen from you, plan the most suitable design, enlist the features, and develop the
+                        most engaging software keeping in mind what you need, the industry, preferences of the clients,
+                        and the latest trends. Innovation and customization are our prime concerns because these days,
+                        conventional methods could force you out of the competition. Things change quickly these days,
+                        and this is why our experts keep on introducing the latest methods to provide your company with
+                        a competitive edge and lead by example. We’ll serve you with..</p>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Custom Software</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>E-Commerce Apps</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Business Apps</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>B2B Software Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Online App Support</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Android Apps</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Web Apps</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Windows Apps</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>IOS Apps</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>Desktop Software</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-2 col-lg-1">
+                            <div><img src="images/correct.png" class="img-fluid"></div>
+                        </div>
+                        <div class="col-10 col-lg-10 ps-lg-0">
+                            <p>Document and Data Management Solutions</p>
+
+                        </div>
+                    </div>
+
+                    <p class="text-blue mt-lg-3 mt-3">We offer various IT solutions to help you out. Our ERP solutions
+                        for all types of business, meeting your customized requirements to help your business ensure
+                        CRM, HCM, and CSM etc. Our Cloud Solutions ensure foolproof networking and secure data
+                        management. Feel free to contact us to know more about our set of services including App
+                        Maintenance, Software Development, and Testing. Our expertise in few more technologies..</p>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>SNOW</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>JAVA</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>.NET</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>UI/UX DESIGN</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>DEVOPS</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>IOT</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>BIGDATA</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>ANDROID</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>IOS</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>PYTHON</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>IOS</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>RPA</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>BLOCKCHAIN</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>AI</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="align-items-baseline row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>IOS</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2">
+                                    <div><img src="images/correct.png" class="img-fluid"></div>
+                                </div>
+                                <div class="col-10 col-lg-10 ps-lg-0">
+                                    <p>TESTING</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0 order-0 order-lg-1 pt-4 pt-lg-0">
+                <img src="images/webconsulting.jpg" class="img-fluid shadow" style="border-radius: 30px;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ps-lg-0 pe-lg-0 contact">
+        <div class="mt-5 mt-lg-5 mx-lg-0 pt-lg-3 row">
+            <div class="joinus-area-1 align-items-center">
+                <div class="align-items-center mt-3 mt-lg-4 mx-0 row">
+                    <div class="col-lg-12">
+                        <h6 class="fw-bold text-white">CONNECT WITH US</h6>
+                        <div style="border-bottom: 1px solid #ccc;" class="mt-lg-4"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="fw-bold mt-4 mt-lg-4 text-white">We are committed <br> to delivering only <br> <span
+                                class="text-green">the best</span></h1>
+                    </div>
+                    <div class="mt-3 mt-lg-4">
+                        <button type="button"
+                            class="border-0 btn btn--primary pb-3 pb-lg-3 pe-5 pe-lg-5 ps-5 ps-lg-5 pt-3 pt-lg-3 rounded-pill">Contact
+                            Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <footer class="footer mt-5 mt-lg-5 pt-5 pt-lg-5 style-2">
+        <img src="images/footer-vectr1.png" class="footer-vectr1 img-fluid" alt="image">
+        <img src="images/footer-vectr2.png" class="footer-vectr2 img-fluid" alt="image">
+        <div class="container-fluid">
+            <div class="mx-0 mx-lg-5 row">
+                <div class="col-lg-3 d-lg-flex">
+                    <div class="footer-item">
+                        <h4 class="text-white fw-bold">Our Services</h4>
+                        <ul class="footer-list mt-lg-4 mt-3">
+                            <li><a href="#" class="text-decoration-none">IT Solutions</a></li>
+                            <li><a href="#" class="text-decoration-none">Software Development</a></li>
+                            <li><a href="#" class="text-decoration-none">Business Consulting</a></li>
+                            <li><a href="#" class="text-decoration-none">US Staff Augmentation</a></li>
+                            <li><a href="#" class="text-decoration-none">Web Consulting</a></li>
+                            <li><a href="#" class="text-decoration-none">Job Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-lg-flex mt-4 mt-lg-0 mt-3">
+                    <div class="footer-item">
+                        <h4 class="text-white fw-bold">Company</h4>
+                        <ul class="footer-list mt-lg-4 mt-3">
+                            <li><a href="#" class="text-decoration-none">Home</a></li>
+                            <li><a href="#" class="text-decoration-none">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none">Services</a></li>
+                            <li><a href="#" class="text-decoration-none">Careers</a></li>
+                            <li><a href="#" class="text-decoration-none">Conatct Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-lg-flex mt-4 mt-lg-0">
+                    <div class="footer-item">
+                        <h4 class="text-white fw-bold">Contact Us</h4>
+                        <ul class="address-list mb-0 mt-lg-4 mt-3">
+                            <li>
+                                <svg width="18" height="25" viewBox="0 0 14 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 18C7 18 13.75 11.6033 13.75 6.75C13.75 4.95979 13.0388 3.2429 11.773 1.97703C10.5071 0.711159 8.79021 0 7 0C5.20979 0 3.4929 0.711159 2.22703 1.97703C0.961159 3.2429 0.25 4.95979 0.25 6.75C0.25 11.6033 7 18 7 18ZM7 10.125C6.10489 10.125 5.24645 9.76942 4.61351 9.13649C3.98058 8.50355 3.625 7.64511 3.625 6.75C3.625 5.85489 3.98058 4.99645 4.61351 4.36351C5.24645 3.73058 6.10489 3.375 7 3.375C7.89511 3.375 8.75355 3.73058 9.38649 4.36351C10.0194 4.99645 10.375 5.85489 10.375 6.75C10.375 7.64511 10.0194 8.50355 9.38649 9.13649C8.75355 9.76942 7.89511 10.125 7 10.125Z">
+                                    </path>
+                                </svg>
+                                <a class="text-white text-decoration-none">4517 Washington Ave. Manchester, Kentucky
+                                    39495</a>
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.12018 0.574918C2.31702 0.378368 2.55339 0.225896 2.81362 0.127607C3.07385 0.0293176 3.352 -0.0125448 3.62963 0.00479393C3.90727 0.0221327 4.17805 0.0982766 4.42402 0.22818C4.67 0.358083 4.88557 0.538779 5.05643 0.758293L7.0758 3.35254C7.44593 3.82842 7.57643 4.44829 7.43018 5.03329L6.8148 7.49704C6.78299 7.62465 6.78471 7.75832 6.81979 7.88507C6.85488 8.01182 6.92214 8.12734 7.01505 8.22042L9.77918 10.9845C9.87237 11.0776 9.98808 11.145 10.115 11.1801C10.242 11.2152 10.3759 11.2168 10.5037 11.1848L12.9663 10.5694C13.255 10.4972 13.5563 10.4916 13.8475 10.553C14.1387 10.6144 14.4121 10.7412 14.6471 10.9238L17.2413 12.942C18.1739 13.6677 18.2594 15.0458 17.4247 15.8794L16.2614 17.0427C15.4289 17.8752 14.1847 18.2408 13.0248 17.8324C10.0561 16.7879 7.36073 15.0884 5.13855 12.8599C2.91025 10.6381 1.21074 7.94306 0.166053 4.97479C-0.241197 3.81604 0.124428 2.57067 0.956928 1.73817L2.12018 0.574918Z">
+                                    </path>
+                                </svg>
+                                <a class="text-white text-decoration-none">+8801761456456</a>
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 2.25C0 1.65326 0.237053 1.08097 0.65901 0.65901C1.08097 0.237053 1.65326 0 2.25 0L15.75 0C16.3467 0 16.919 0.237053 17.341 0.65901C17.7629 1.08097 18 1.65326 18 2.25V11.25C18 11.8467 17.7629 12.419 17.341 12.841C16.919 13.2629 16.3467 13.5 15.75 13.5H4.96575C4.66741 13.5001 4.3813 13.6186 4.17037 13.8296L0.96075 17.0392C0.882147 17.1181 0.781932 17.1718 0.672791 17.1936C0.563649 17.2154 0.450486 17.2044 0.347624 17.1618C0.244763 17.1193 0.156827 17.0473 0.0949469 16.9547C0.0330667 16.8622 2.36417e-05 16.7534 0 16.6421L0 2.25ZM3.9375 3.375C3.78832 3.375 3.64524 3.43426 3.53975 3.53975C3.43426 3.64524 3.375 3.78832 3.375 3.9375C3.375 4.08668 3.43426 4.22976 3.53975 4.33525C3.64524 4.44074 3.78832 4.5 3.9375 4.5H14.0625C14.2117 4.5 14.3548 4.44074 14.4602 4.33525C14.5657 4.22976 14.625 4.08668 14.625 3.9375C14.625 3.78832 14.5657 3.64524 14.4602 3.53975C14.3548 3.43426 14.2117 3.375 14.0625 3.375H3.9375ZM3.9375 6.1875C3.78832 6.1875 3.64524 6.24676 3.53975 6.35225C3.43426 6.45774 3.375 6.60082 3.375 6.75C3.375 6.89918 3.43426 7.04226 3.53975 7.14775C3.64524 7.25324 3.78832 7.3125 3.9375 7.3125H14.0625C14.2117 7.3125 14.3548 7.25324 14.4602 7.14775C14.5657 7.04226 14.625 6.89918 14.625 6.75C14.625 6.60082 14.5657 6.45774 14.4602 6.35225C14.3548 6.24676 14.2117 6.1875 14.0625 6.1875H3.9375ZM3.9375 9C3.78832 9 3.64524 9.05926 3.53975 9.16475C3.43426 9.27024 3.375 9.41332 3.375 9.5625C3.375 9.71168 3.43426 9.85476 3.53975 9.96025C3.64524 10.0657 3.78832 10.125 3.9375 10.125H9.5625C9.71168 10.125 9.85476 10.0657 9.96025 9.96025C10.0657 9.85476 10.125 9.71168 10.125 9.5625C10.125 9.41332 10.0657 9.27024 9.96025 9.16475C9.85476 9.05926 9.71168 9 9.5625 9H3.9375Z">
+                                    </path>
+                                </svg>
+                                <a href="mailto:info@example.com"
+                                    class="text-white text-decoration-none">info@example.com</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 d-lg-flex mt-3 mt-lg-0">
+                    <div class="footer-item">
+                        <h4 class="text-white fw-bold">Social Links</h4>
+                        <ul class="footer-social gap-3 mt-lg-4 mt-4">
+                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.com/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom mt-4 mt-lg-3 pb-lg-0">
+            <div class="container-fluid">
+                <div class="d-flex mx-0 mx-lg-5 row">
+                    <div class="col-6 col-lg-9 justify-content-center justify-content-lg-start">
+                        <p class="text-white">Copyright 2022</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex float-lg-end">
+                            <div><a href="#" class="pe-3 pe-lg-2 text-decoration-none text-white"
+                                    style="border-right: 2px solid #fff">Privacy Policy</a></div>
+                            <div><a href="#" class="ps-3 ps-lg-2 text-decoration-none text-white">Terms of Use</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <script src='js/bootstrap.bundle.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
